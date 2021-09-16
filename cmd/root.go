@@ -42,5 +42,6 @@ func New() *cobra.Command {
 	cmd.AddCommand(MigrateCmd())
 	cmd.AddCommand(DownloadCmd())
 	cmd.AddCommand(Snapshot())
+	cmd.AddCommand(Visualize())
 	return cmd
 }
